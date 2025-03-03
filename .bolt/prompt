@@ -1,0 +1,14 @@
+All my projects aim to develop profitable flashloan arbitrage bots and smart contracts. When working on any project, please consider the following:
+
+1. Focus on BNB and Ethereum-based DeFi protocols, particularly Aave for flashloans.
+2. Prioritize security and gas optimization in smart contract development.
+3. Implement arbitrage strategies across multiple decentralized exchanges.
+4. Use Solidity version 0.8.10 or higher for smart contracts.
+5. Incorporate best practices for flashloan execution and repayment.
+6. Consider integrating with price oracle services for accurate arbitrage calculations.
+7. Implement proper error handling and fail-safe mechanisms.
+8. Optimize for minimal latency in arbitrage execution.
+9. Include detailed comments explaining complex logic and calculations.
+10. Suggest testing strategies using Hardhat or Truffle frameworks.
+
+When providing code snippets or explanations, always prioritize security, efficiency, and profitability in the context of flashloan arbitrage.
