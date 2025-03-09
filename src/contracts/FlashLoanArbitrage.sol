@@ -119,7 +119,7 @@ contract FlashLoanArbitrage is ReentrancyGuard {
     
     function _executeMultiHopSwap(address from, address to, uint256 amount) internal {
         // Example using a common intermediate token like WETH
-        address weth = 0xd854F0a790AfE455E39b66d871211F4a6F34C6D9; // Example WETH address
+        address weth = 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2; // Example WETH address
         
         address[] memory path = new address[](3);
         path[0] = from;
@@ -161,7 +161,7 @@ contract FlashLoanArbitrage is ReentrancyGuard {
     }
     
     function getMultiHopEstimate(address from, address to, uint256 amount) public view returns (uint256) {
-        address weth = 0xd854F0a790AfE455E39b66d871211F4a6F34C6D9; // Example WETH address
+        address weth = 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2; // Example WETH address
         
         address[] memory path = new address[](3);
         path[0] = from;
